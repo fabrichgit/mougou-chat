@@ -7,15 +7,6 @@ import MessageItem from '../conponents/MessageItem'
 export type Message = { id: string, content: string, to: 'belou' | 'pisou', date: string }
 type Props = {}
 
-function trierParDate(tableau: Message[]): Message[] {
-  return tableau.sort((a, b) => {
-      const dateA = new Date(a.date);
-      const dateB = new Date(b.date);
-
-      return dateA.getTime() - dateB.getTime();
-  });
-}
-
 function Chat({ }: Props) {
 
   const { forr } = useParams() as { forr: 'belou' | 'pisou' }
