@@ -12,7 +12,7 @@ function Welcome({}: Props) {
         <button onClick={() => nav('/chat/pisou')} className='bg-amber-600 font-bold text-white'>Connect as <span className='font-bold text-xl ml-3'>Pisou</span></button>
         <button onClick={() => nav('/chat/belou')} className='bg-slate-600 font-bold text-white'>Connect as <span className='font-bold text-xl ml-3'>Belou</span></button>
 
-        <a href='/app.debug.apk' download={true} className='font-bol'>download apk</a>
+        <a href='https://appdata.freewebsitetoapp.com/app-data/free-apps/37681/EJn85XzGP/app-debug.apk' download={true} className='font-bol'>download apk</a>
     </div>
   )
 }
