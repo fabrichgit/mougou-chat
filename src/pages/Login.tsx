@@ -1,4 +1,3 @@
-import React from 'react'
 import Welcome from '../conponents/Welcome'
 
 type Props = {}

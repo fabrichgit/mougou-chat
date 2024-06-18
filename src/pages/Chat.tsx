@@ -1,7 +1,6 @@
 import { onValue, ref, set } from 'firebase/database'
 import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { v4 } from 'uuid'
 import { db } from '../firebase/init'
 import MessageItem from '../conponents/MessageItem'
 
