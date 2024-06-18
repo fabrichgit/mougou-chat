@@ -7,8 +7,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/chat/:forr' element={<Chat/>}/>
+      <Route path='/' element={<Login />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/chat/:forr' element={<Chat />} />
     </Routes>
   )
 }
